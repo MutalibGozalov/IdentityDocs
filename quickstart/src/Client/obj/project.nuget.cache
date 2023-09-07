@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "bu32xcv+KOYqsT4i93thwHvrYl9OrUymqw77LrZ72CTDjLrn+M+RIOHbkrW47ABAqVZHzpY7dGwMeFaOzVR6zA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mutalibshg\\Desktop\\iddemo\\quickstart\\src\\Client\\Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mutalibshg\\.nuget\\packages\\identitymodel\\6.2.0\\identitymodel.6.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
