@@ -18,7 +18,7 @@ public class HomeController : Controller
         return View();
     }
 
-     public IActionResult Logout()
+    public IActionResult Logout()
     {
         return SignOut("Cookies", "oidc");
     }

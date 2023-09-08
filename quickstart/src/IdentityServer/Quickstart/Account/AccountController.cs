@@ -67,7 +67,7 @@ namespace IdentityServerHost.Quickstart.UI
                 return RedirectToAction("Challenge", "External", new { scheme = vm.ExternalLoginScheme, returnUrl });
             }
 
-            return View(vm);
+            return Json(vm);
         }
 
         /// <summary>
@@ -276,7 +276,7 @@ namespace IdentityServerHost.Quickstart.UI
                 var client = await _clientStore.FindEnabledClientByIdAsync(context.Client.ClientId);
                 if (client != null)
                 {
-                    allowLocal = client.EnableLocalLogin;
+                    allowLocal = !client.EnableLocalLogin;
 
                     if (client.IdentityProviderRestrictions != null && client.IdentityProviderRestrictions.Any())
                     {
